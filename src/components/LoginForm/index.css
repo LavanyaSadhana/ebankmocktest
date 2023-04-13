@@ -1,0 +1,72 @@
+.bank-container {
+  background-color: #152850;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.login-form-container {
+  margin: 40px 20px 40px 20px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #e0eefe;
+  display: flex;
+  align-items: center;
+}
+.image-container {
+  display: flex;
+  width: 100%;
+}
+.login-image {
+  width: 80%;
+  height: 80%;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.label-text {
+  color: #5a7184;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.text-input {
+  padding: 10px;
+  border: 1px solid #5a7184;
+  color: #5a7184;
+  border-radius: 10px;
+}
+.btn {
+  background-color: #1565d8;
+  color: #fff;
+  margin-top: 15px;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.heading {
+  color: #152850;
+  font-size: 24px;
+  font-family: 'roboto';
+}
+.error-msg {
+  color: red;
+  font-size: 12px;
+}
