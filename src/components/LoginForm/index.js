@@ -25,7 +25,7 @@ class LoginForm extends Component {
     return (
       <>
         <label htmlFor="userId" className="label-text">
-          UserID
+          User ID
         </label>
         <input
           type="text"

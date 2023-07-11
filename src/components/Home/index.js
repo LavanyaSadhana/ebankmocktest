@@ -1,5 +1,5 @@
 import Cookies from 'js-cookie'
-import {Redirect} from 'react-router-dom'
+import {Redirect, withRouter} from 'react-router-dom'
 
 import Header from '../Header'
 import './index.css'
@@ -25,4 +25,4 @@ const Home = () => {
     </>
   )
 }
-export default Home
+export default withRouter(Home)
